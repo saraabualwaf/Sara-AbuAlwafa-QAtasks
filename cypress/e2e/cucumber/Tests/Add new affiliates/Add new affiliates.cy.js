@@ -49,7 +49,7 @@ When("select country id address",()=>{
 });
 When("enter country address",()=>{
    
-    cy.get("#Address_County").type("palestine")
+    cy.get("#Address_County").clear().type("palestine")
 });
 When("enter city address",()=>{
    
@@ -76,4 +76,5 @@ Then("the Affiliates should be added successfully",()=>{
     
     cy.get('.alert.alert-success.alert-dismissable').should("be.visible")
 });
+
 

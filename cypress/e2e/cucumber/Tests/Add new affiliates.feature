@@ -1,4 +1,4 @@
-Feature: Add a new Affiliates functionality
+Feature: Add a new Affiliate functionality
 
     The user can be Add a new Affiliates successfully
 

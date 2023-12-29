@@ -24,7 +24,7 @@ Given("Click on  promotions menu",()=>{
 });
 Given("Click on campaigns url",()=>{
    
-    cy.get("li.nav-item a p").contains(" Campaigns",{force: true}).click({force: true})
+    cy.get("li.nav-item a p").contains(" Campaigns",).click({force: true})
 });
 When("click on Add new",()=>{
     

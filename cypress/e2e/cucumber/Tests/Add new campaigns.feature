@@ -1,4 +1,4 @@
-Feature: Add a new Affiliates functionality
+Feature: Add a new Campaigns  functionality
 
     The user can be Add a new Campaigns successfully
 

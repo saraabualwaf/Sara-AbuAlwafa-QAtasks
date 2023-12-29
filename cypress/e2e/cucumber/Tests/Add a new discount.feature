@@ -1,5 +1,5 @@
 
-Feature: Add a new discount functionality
+Feature: Add a new Discount functionality
 
     The user can be Add a new discount successfully
 

@@ -27,7 +27,7 @@ Given("Click on  promotions menu",()=>{
 Given("Click on  Discounts url",()=>{
     
    
-    cy.get("li.nav-item a p").contains("Discounts",{force: true}).click({force: true})
+    cy.get("li.nav-item a p").contains("Discounts",).click({force: true})
 });
 
 When("click on Add new",()=>{
